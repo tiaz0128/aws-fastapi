@@ -1,0 +1,16 @@
+{
+    "editor.tabSize": 4,
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "code-runner.executorMap": {
+        "python": "call $workspaceRoot\\.venv\\Scripts\\activate.bat && set PYTHONIOENCODING=utf8 && python -u $fullFileName",
+    },
+    "pythonTestExplorer.testFramework": "pytest"
+}
